@@ -12,4 +12,15 @@ $(function(){
     $(".duoxuan>span").on("mouseleave",function(){
         $(".l-tishi").css({display:"none"})
     })
+
+    $(".ewm-login1").on("click",function(){
+       /* $(".login-bd>div").css({display:"none"})*/
+        $(".login-box").css({display:"none"})
+        $(".sm-login").css({display:"block"})
+    })
+    $(".ewm-login2").on("click",function(){
+        /* $(".login-bd>div").css({display:"none"})*/
+        $(".login-box").css({display:"block"})
+        $(".sm-login").css({display:"none"})
+    })
 })

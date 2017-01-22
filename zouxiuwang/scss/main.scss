@@ -9,6 +9,7 @@
 img{display: block;border:0;}
 a{text-decoration: none;}
 em,i{font-style: normal}
+/*login页面*/
 .l-header{width:100%;height:60px;border-bottom: 1px solid #e5e5e5;}
 .l-header-center{
   width:1200px;height:60px;margin: 0 auto;
@@ -17,7 +18,7 @@ em,i{font-style: normal}
     }
 }
 .l-main{width:100%;height: 700px;background: url("../images/login/l-main-bj.jpg")no-repeat center #f7f2ec;position: relative}
-.l-main-center{margin: auto}
+.l-main-center{margin: auto;position: relative}
 .login-box{  width:420px;height:560px;background: #fff;border: 1px solid #d8d8d8;box-shadow: 0 0 20px #c8c8c8;position:absolute;right: 30px;top:70px;}
 .dlfs{
   list-style: none;height:50px;line-height:50px;font-size:16px;background:#f7f7f7;
@@ -53,9 +54,57 @@ input[type=submit]:hover{background:url("../images/login/login-zh1.png") no-repe
 .err-msg{margin: 5px 10px;}
 .pwdlogin{display: none}
 .ewm-login{width:60px;height:60px;background: url("../images/login/login-zh1.png") 0 -400px;position: absolute;right:0;bottom: 0;}
-.ewm-login>span{display: inline-block;width:85px;height: 25px; background:url("../images/login/login-zh1.png")0 -360px;position:absolute;right:70px;bottom: 30px;}
+.zt{display: inline-block;width:85px;height: 25px; background:url("../images/login/login-zh1.png")0 -360px;position:absolute;right:70px;bottom: 30px;}
+
+.sm-login{width:370px;height: 450px;border: 1px solid #d8d8d8;box-shadow: 0 0 20px #c8c8c8;
+  position: absolute;top:70px;right:30px;padding-left: 50px;display: none;}
+.sm-login>h2{font-size: 16px;color:#3E3E3E}
+.ewm-img>img{padding: 10px;border:1px solid #dddddd;margin:50px auto 20px;}
+.ewm-ts{margin:0 auto;width:170px;}
+.ewm-ts>a{color: red;}
+.ewm-ts>a:hover{color:red;text-decoration:underline}
+
 .l-footer{width:100%;height:110px;font-size: 12px;}
 .l-footer>.list-inline{font-size:12px;text-align: center;margin-top: 30px;}
 .list-inline a{color: #464646}
 .list-inline span{margin:0 10px;}
 .l-footer>p{text-align: center;color:#999;}
+
+/*index页面*/
+.i-header{width:100%;height:93px;background: #333;}
+.i-header-center{width:1200px;height:93px;margin:0 auto;font-size: 12px;}
+.i-small-nav{float:left;}
+.i-small-nav>li{float:left;height:35px;padding: 0 5px;line-height: 35px;}
+.i-small-nav>li:nth-of-type(1)>a:hover{color:#D7D7D7;}
+.i-small-nav>li:nth-of-type(2)>a span{padding:0 5px;color:#f78407}
+.i-small-nav>li:nth-of-type(3)>a:hover>ul{display: block;}
+.i-small-nav>li>ul{display: none;}
+.i-small-nav>li>ul>li{line-height:25px;}
+.i-small-nav>li:nth-of-type(2)>a i{display:block;width:20px;height:18px;float:left;background: url("../images/index/index-xtb.png") no-repeat -215px -50px;margin: 0 5px;margin-top: 10px;}
+.i-small-nav>li:nth-of-type(3)>a i{display: block;width:12px;height:12px;float: right;background: url("../images/index/index-xtb.png") no-repeat right -125px;margin-top: 15px;}
+
+.i-logo{padding-top:10px;}
+.i-logo>a{display: block;width:212px;height:32px;float:left;margin-left:220px;background: url("../images/index/index-xtb.png")no-repeat 0 0;}
+
+.i-ss{width:263px;height:28px;border: 1px solid #787878;float: right;}
+.inputbox{background:#333;border:0;width:230px;height:26px;line-height: 26px;padding-left: 10px;float: left ;color: #787878; outline:none}
+.i-ss>span{display:block;width:26px;height:28px;background: url("../images/index/index-xtb.png")no-repeat 0 -42px;float: right;cursor: pointer}
+.i-nav{width:1200px;height:44px;float: left;font-size: 15px;line-height: 44px;margin-top: 5px;text-align: center}
+.i-nav>ul{width:600px;height:40px;margin: auto}
+.i-nav li{float: left}
+.i-nav>ul>li>a{color:#eee;display:inline-block;line-height:40px;padding:0 15px;margin: 0 5px;font-weight:600}
+.i-nav>ul>li>a:hover{border-bottom: 2px solid #727071;font-weight:600;color:#bfbfbf;}
+.i-nav>ul>li>.i-nav-active{border-bottom: 2px solid #727071;font-weight:600;color:#bfbfbf;}
+
+.menu{width:100%;height:42px;background: #f7f7f7;}
+.menu-center{width:1200px;margin: auto;position: relative}
+.i-menu{width:600px;height:42px;line-height:42px; margin: 0 auto;}
+.i-menu>li{float: left;margin:0 2px;}
+.i-menu>li>a{font-size: 14px;color:#000;display: inline-block;width:62px;height:42px;text-align: center;border-left: #f7f7f7 1px solid; border-right: #f7f7f7 1px solid;border-top: #f7f7f7 1px solid;}
+.zxcj{float: right;position: absolute;right:0;top:12px;font-size: 12px;}
+.zxcj{color: #333;}
+.zxcj:hover{color: red;}
+
+.banner{width:100%;height:610px;padding: 20px 0 30px;}
+.banner-center{width:1200px;height:610px;margin: auto;position: relative}
+.banner-center>img{position:absolute;}

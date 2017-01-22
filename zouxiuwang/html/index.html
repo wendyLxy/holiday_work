@@ -2,91 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>走秀网登陆页面</title>
+    <title>走秀网首页</title>
     <link rel="stylesheet" href="../css/main.css">
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../js/lib/login.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        a{color:#D7D7D7}
+        a:hover{color:red;text-decoration: none;list-style: none;}
+        ul{list-style: none;}
+    </style>
 </head>
 <body>
-<div class="l-header">
-    <div class="l-header-center">
-        <h1><a href="#"><img src="../images/login/l-logo.png" alt=""></a></h1>
-    </div>
-</div>
-<div class="l-main">
-    <div class="l-main-center">
-        <form action="">
-            <div class="login-box">
-                <ul class="dlfs">
-                    <li class="dlfsactive">短信登录</li>
-                    <li>密码登陆</li>
+<div class="i-header">
+    <div class="i-header-center">
+        <ul class="i-small-nav">
+            <li><a href="#">登陆/注册</a></li>
+            <li><a href="#" ><i></i>购物袋<span>0</span>件</a></li>
+            <li><a href="#">我的走秀<i></i></a>
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">自助退货</a></li>
+                    <li><a href="#">我的收藏</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">全部吐槽</a></li>
                 </ul>
-                <div class="login">
-                    <div class="dxlogin">
-                        <p class="err-msg" id="phone-err"></p>
-                        <input type="text" placeholder="手机号码" class="phone">
-                        <p class="err-msg" id="dxyz-err"></p>
-                        <input type="text" placeholder="短信验证码" class="dxyzm">
-                        <input type="button" value="获取验证码">
-                        <p class="duoxuan"><span><i class="check"></i>两周内自动登陆</span><a href="#">找回密码</a><em class="l-tishi">为了账户安全，请勿在公共电脑上勾选此项。<i></i></em></p>
-                        <input type="submit" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
-                        <p class="hzzhdl">
-                            <span>合作网站账号登录</span>
-                        </p>
-                        <ul class="hzzh">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                        <div class="ewm-login">
+            </li>
+        </ul>
+        <div class="i-logo">
+            <a href=""></a>
+        </div>
+        <div class="i-ss">
+            <input class="inputbox" type="text" placeholder="请搜索Opening Ceremony试试">
+            <span></span>
+        </div>
+        <div class="i-nav">
+            <ul>
+                <li><a href="#" class="i-nav-active">首页</a></li>
+                <li><a href="#">新品</a></li>
+                <li><a href="#">男士</a></li>
+                <li><a href="#">女士</a></li>
+                <li><a href="#">品牌</a></li>
+                <li><a href="#">发现</a></li>
+                <li><a href="#">专题</a></li>
+                <li><a href="#">手机走秀</a></li>
+            </ul>
 
-                        </div>
-                    </div>
-                    <div class="pwdlogin">
-                        <p class="err-msg" id="phone1-err"></p>
-                        <input type="text" placeholder="手机号/邮箱/用户名" class="phone">
-                        <p class="err-msg" id="pwd-err"></p>
-                        <input type="password" placeholder="密码" class="pwd">
-                        <p class="duoxuan"><span><i class="check"></i>两周内自动登陆</span><a href="#">找回密码</a><a style="margin: 0 5px;">|</a><a href="#">注册账号</a><em class="l-tishi">为了账户安全，请勿在公共电脑上勾选此项。<i></i></em></p>
-                        <input type="submit" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
-                        <p class="hzzhdl">
-                            <span>合作网站账号登录</span>
-                        </p>
-                        <ul class="hzzh">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                        <div class="ewm-login">
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </form>
+        </div>
     </div>
 </div>
-<div class="l-footer">
-    <ul class="list-inline">
-        <li><a href="#">关于走秀</a><span>|</span></li>
-        <li><a href="#">媒体报道</a><span>|</span></li>
-        <li><a href="#">品牌招商</a><span>|</span></li>
-        <li><a href="#">加入走秀</a><span>|</span></li>
-        <li><a href="#">友情链接</a><span>|</span></li>
-        <li><a href="#">联系我们</a><span>|</span></li>
-        <li><a href="#">帮助中心</a><span>|</span></li>
-        <li><a href="#">网站地图</a></li>
-    </ul>
-    <p>Copyright © 2008-2017 <a href="#">Xiu.com</a>  版权所有 . 粤ICP备07502993号</p>
+<div class="menu">
+    <div class="menu-center">
+        <ul class="i-menu">
+            <li><a href="#">包带</a></li>
+            <li><a href="#">服装</a></li>
+            <li><a href="#">鞋靴</a></li>
+            <li><a href="#">腕表</a></li>
+            <li><a href="#">配饰</a></li>
+            <li><a href="#">妆品</a></li>
+            <li><a href="#">生活</a></li>
+            <li><a href="#">婴童</a></li>
+            <li><a href="#">豪车</a></li>
+        </ul>
+        <a href="#" class="zxcj">走秀网春节服务公告</a>
+    </div>
+
 </div>
+<div class="banner">
+    <div class="banner-center">
+        <img src="../images/index/002.jpg" alt="">
+        <img src="../images/index/003.jpg" alt="">
+    </div>
+
+</div>
+<div class="i-mian"></div>
+<div class="i-footer"></div>
 </body>
 </html>
