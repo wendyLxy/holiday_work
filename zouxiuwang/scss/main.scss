@@ -105,6 +105,49 @@ input[type=submit]:hover{background:url("../images/login/login-zh1.png") no-repe
 .zxcj{color: #333;}
 .zxcj:hover{color: red;}
 
-.banner{width:100%;height:610px;padding: 20px 0 30px;}
+.banner{width:100%;height:610px;margin: 20px 0 30px;}
 .banner-center{width:1200px;height:610px;margin: auto;position: relative}
-.banner-center>img{position:absolute;}
+.banner-center>img{width:100%;height:100%;position:absolute;}
+
+.zx-active{width:100%;height:86px;}
+.zx-active-center{width:1200px;height:86px;margin: 0 auto;}
+.zx-active-center>a{width:250px;height:86px;margin-right:60px;display: inline-block;float: left;background: url("../images/index/zx-active.jpg")no-repeat;}
+.zx-active-center>a:nth-of-type(2){background-position: -245px 0;}
+.zx-active-center>a:nth-of-type(3){background-position: -740px 0;}
+.zx-active-center>a:nth-of-type(4){background-position: -985px 0;}
+
+.i-main{width:100%;height:auto;}
+.i-main-center{width:1200px;height:auto;margin: auto}
+.jhtj>h2>img{margin: auto  }
+.jhtj ul{width:1200px;height:600px;margin-bottom: 40px;}
+.jhtj ul>li{float: left;width:400px;height:300px;}
+
+.rjzt>ul{width:1200px;height:300px;}
+.rjzt ul>li{width:600px;height:300px;float: left;position: relative}
+.rjzt-active{position: absolute;left: 50%;top:50%;margin-top:-45px;margin-left:-185px;}
+
+.main-banner{width:1200px;height:400px;margin-top: 40px;margin-bottom: 50px;}
+
+.fxhh{width:1200px}
+.fxhh>h2{margin-bottom: 20px;}
+.fxhh>h2>img{margin: auto}
+.fxhh ul{width:1200px;height: 2040px;float: left;margin-bottom: 20px;}
+.fxhh ul li{width:287px;height:490px;border:2px solid #eaeaea;margin: 0 17px 20px 0;float: left;overflow: hidden}
+.fxhh ul li:hover{border:2px solid #d5d5d5;}
+.fxhh .ckgdzt{margin-bottom: 50px;}
+
+.i-footer{width:100%;height:389px;}
+.footer-service{width:100%;height:180px;background: #EBEBEB;border-top: #9a9a9a 3px solid;}
+.service-center{width:1200px;height:180px;margin: auto}
+.service-center>dl{width:130px;float: left;margin-right: 60px;margin-top: 25px;}
+.service-center>dl{margin-bottom: 17px;font-size: 14px;}
+.service-center>dl>dd{font-size: 12px;line-height: 20px;}
+.i-footer a{color:#252525;font-size: 12px;}
+.i-footer a:hover{color:orange}
+
+.foot{width:1200px;height:206px;margin: auto}
+.foot>.list-inline{text-align: center}
+.list-inline>li{line-height: 32px;margin-top:15px;}
+.foot>p{text-align: center;font-size: 12px;color: #999;margin-top: 70px;}
+.zlsb{width:440px;height:49px;margin: auto;}
+.zlsb>a{float: left;margin: auto;margin-left: 12px;padding: 10px 0;}
