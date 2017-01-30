@@ -98,8 +98,23 @@ input[type=submit]:hover{background:url("../images/login/login-zh1.png") no-repe
 
 .menu{width:100%;height:42px;background: #f7f7f7;}
 .menu-center{width:1200px;margin: auto;position: relative}
-.i-menu{width:600px;height:42px;line-height:42px; margin: 0 auto;}
-.i-menu>li{float: left;margin:0 2px;}
+.i-menu{width:600px;height:42px;line-height:42px; margin: 0 auto;position: relative}
+.i-menu>li{float: left;margin:0 2px;border-right:1px solid #f7f7f7;border-left:1px solid #f7f7f7;border-bottom: 3px solid #f7f7f7;position:relative;}
+.i-menu>li:hover{border-right:1px solid #d7d7d7;border-left:1px solid #d7d7d7;}
+.i-menu>li:hover em{display: block;width:61px;height: 5px;background:#Fff;position: absolute;z-index: 20;top:42px;}
+.i-menu>li .bag{width:720px;height:auto;border:#d7d7d7 solid 1px;position: absolute;left:-1px;top:42px;z-index: 1;background: #fff;padding: 0 15px 10px;}
+.i-menu>li .bag-left{float: left;width:450px;}
+.i-menu>li .bag-right{float: right;width:220px;margin-left:5px;}
+.i-menu>li .bag-right li{width:110px;float: left;height:18px;line-height: 18px;margin: 2px 0px;}
+.i-menu>li div dl{border-top: dashed 1px #a5a5a5;font-size: 12px;width:452px;margin-bottom: 20px;}
+.i-menu>li div dl span{margin: 0 5px;}
+.i-menu>li div dt{line-height: 20px;margin-top: 10px;}
+.i-menu>li div dd{line-height: 14px;height:14px;}
+.i-menu>li div dd .rmsp{color: red;}
+.i-menu>li div h3{font-size:12px;font-weight: 600;color: red;height:40px;line-height: 50px;}
+.i-menu>li div a{color:#000;font-size: $smallfont;}
+.i-menu>li div a:hover{color:red;}
+.i-menu>li div dt:hover{color:orange}
 .i-menu>li>a{font-size: 14px;color:#000;display: inline-block;width:62px;height:42px;text-align: center;border-left: #f7f7f7 1px solid; border-right: #f7f7f7 1px solid;border-top: #f7f7f7 1px solid;}
 .zxcj{float: right;position: absolute;right:0;top:12px;font-size: 12px;}
 .zxcj{color: #333;}
@@ -120,7 +135,8 @@ input[type=submit]:hover{background:url("../images/login/login-zh1.png") no-repe
 .i-main-center{width:1200px;height:auto;margin: auto}
 .jhtj>h2>img{margin: auto  }
 .jhtj ul{width:1200px;height:600px;margin-bottom: 40px;}
-.jhtj ul>li{float: left;width:400px;height:300px;}
+.jhtj ul>li{float: left;width:400px;height:300px;position: relative;}
+.jhtj ul>li:hover p{width:400px;height:300px;background:#fff;position: absolute;left: 0;top:0;z-index: 20;opacity: 0.5;}
 
 .rjzt>ul{width:1200px;height:300px;}
 .rjzt ul>li{width:600px;height:300px;float: left;position: relative}

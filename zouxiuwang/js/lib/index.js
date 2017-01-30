@@ -69,13 +69,14 @@ $(function(){
     ]
 
     $(".jhtj-goods").each(function(index,dom){
-
-       var $a = $("<a>");
+        var $p=$("<p>")
+        var $a = $("<a>");
         $a.attr("href","#");
         var $img=$("<img>")
         $img.attr("src",jhtjjz[index].imgurl);
         $a.append($img)
         $(this).append($a)
+        $(this).append($p)
     })
     $(".rjzt-goods").each(function(index,dom){
 
